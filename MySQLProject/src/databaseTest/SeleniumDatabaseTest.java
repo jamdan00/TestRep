@@ -6,6 +6,7 @@ public class SeleniumDatabaseTest {
 	
 	public static void main(String[] args) {
 		
+		// add comment
 		Connection conn = null;
 		
 		String url = "jdbc:mysql://localhost:3306/";
@@ -38,6 +39,6 @@ public class SeleniumDatabaseTest {
 		}
 	}
 		
-	} 
+} 
 
 
