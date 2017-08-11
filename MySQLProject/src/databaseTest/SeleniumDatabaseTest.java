@@ -2,8 +2,6 @@ package databaseTest;
 
 import java.sql.*;
 
-import javax.naming.spi.DirStateFactory.Result;
-
 public class SeleniumDatabaseTest {
 	
 	public static void main(String[] args) {
