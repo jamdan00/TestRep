@@ -8,6 +8,7 @@ public class SeleniumDatabaseTest {
 		
 		// add comment
 		Connection conn = null;
+		int qwe=43;
 		
 		String url = "jdbc:mysql://localhost:3306/";
 		String databaseName = "sakila";
