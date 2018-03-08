@@ -29,6 +29,8 @@ public class SeleniumDatabaseTest {
 			System.out.println(result.getString("release_year"));
 			System.out.println(result.getString("length"));
 		}
+		
+		// errors catching
 		catch (Exception e) {
 			System.out.println(e);
 		}
