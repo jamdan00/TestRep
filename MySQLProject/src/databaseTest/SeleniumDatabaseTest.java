@@ -1,12 +1,12 @@
 package databaseTest;
-// comment
+
 import java.sql.*;
 
 public class SeleniumDatabaseTest {
 	
 	public static void main(String[] args) {
 		
-		// add comment
+	
 		Connection conn = null;
 			
 		String url = "jdbc:mysql://localhost:3306/";
@@ -29,8 +29,7 @@ public class SeleniumDatabaseTest {
 			System.out.println(result.getString("release_year"));
 			System.out.println(result.getString("length"));
 		}
-		
-		// errors catching
+
 		catch (Exception e) {
 			System.out.println(e);
 		}
